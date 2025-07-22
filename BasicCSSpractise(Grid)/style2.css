@@ -1,0 +1,27 @@
+.main {
+    .header {
+        height: 50px;
+        width: 100%;
+        border: 1px solid red;
+        background-color: yellow;
+    }
+    .main-section {
+        height: 300px;
+        display: flex;
+        .sidebar {
+            height: 100%;
+            /* width: 200px; */
+            flex-basis: 200px;
+            float: left;
+            background-color: red;
+            border: 1px solid blue;
+        }
+        .right-content {
+            /* width: 400px; */
+            height: 100%;
+            flex: 1;
+            background-color: green;
+            border: 1px solid purple;
+        }
+    }
+}
