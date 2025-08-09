@@ -1,0 +1,123 @@
+.Top-Header {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    padding: 15px;
+    color: white;
+}
+
+.Right {
+    display: flex;
+    gap: 15px;
+}
+
+.circle {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.circles {
+  display: flex;
+  justify-content: space-around;
+  gap: 30px;
+  margin: 30px 0;
+}
+
+.yellow {
+  background-color: #ffff99;
+}
+
+.green {
+  background-color: #ccffcc;
+}
+
+.blue {
+  background-color: #cce5ff;
+}
+
+.menu-bar {
+  background-color: #ffffcc;
+  display: flex;
+  padding: 15px;
+  font-weight: bold;
+  gap: 10px;
+}
+
+.Box {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    margin-top: 25px;
+    margin-bottom: 30px;
+}
+
+.Leftside {
+    height: 170px;
+    width: 300px;
+    background-color: lightgray;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding:20px 0px 0px 20px ;
+}
+
+.Rightside {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    gap: 20px;
+}
+
+.Leftbox {
+    height: 130px;
+    width: 220px;
+    background-color: lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 10px 10px 10px;
+
+}
+
+.Middlebox {
+    height: 130px;
+    width: 460px;
+    background-color: lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 10px 10px 10px;
+}
+
+.Rightbox {
+    height: 120px;
+    width: 220px;
+    background-color: lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 10px 10px 10px;
+}
+
+.box {
+    border: solid;
+    border-color: #cce5ff;
+    
+}
+
+.Text {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.Footer {
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    background-color: black;
+    padding: 15px;
+}
