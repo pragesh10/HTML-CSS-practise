@@ -1,0 +1,31 @@
+body { font-family: Arial,
+sans-serif; padding: 30px;
+background: #2bccb9;
+
+} h1 { text-align: center;
+
+margin-bottom: 30px;
+} .box { width:
+15rem; height:
+8rem; margin:
+1rem auto;
+background-color: #4CAF50;
+color: white; display:
+flex; justify-content:
+center; align-items:
+center; border-radius:
+0px; font-weight: bold; }
+
+.red:hover { transform: rotate(45deg);
+}
+.scale:hover {
+transform: scale(0.5);
+}
+
+.skew:hover {
+  transform: skew(20deg, 10deg);
+}
+
+.translate:hover {
+  transform: translate(50px, 20px);
+}
