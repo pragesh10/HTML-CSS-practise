@@ -1,0 +1,24 @@
+.gridbox {
+display: grid; 
+
+grid-template-columns: 1fr 1fr 1fr; 
+grid-template-rows: 10rem 20rem; 
+gap: 10px; 
+background-color: lightgreen; justify-items: center; 
+align-items: center; }
+
+.gridbox1 { padding: 1%; display: grid; 
+grid-template-columns: repeat(2, 100px); 
+
+grid-template-rows: repeat(2, 100px); 
+justify-content: space-between;
+align-content: space-between; 
+
+background-color: lightblue;
+}
+.box { height:
+10rem; width: 10rem;
+background-color: red;
+align-items: center;
+}
+
